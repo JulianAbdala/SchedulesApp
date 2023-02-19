@@ -1,6 +1,8 @@
 # SchedulesApp
 Takes a .txt input and analizes if an schedule between two employees has overlaped and how many times it did it.
 
+--------------------------------------------------------------------------------------------------------------------------------
+
 The biggest challenge was analyzing the schedules where the employees did not exactly match in date and time of entry and exit.
 
 **My solution idea was the manipulation of dictionaries.**
@@ -14,6 +16,8 @@ Then, I began to think about the logic for "checkOverlap" and the comparison of 
 I decided to divide the overlap function into two separate classes, one that iterates over the names and schedules of each employee, and another that maintains the logic to validate the number of overlaps.
 
 Finally, I decided to create another class that handles the startup functions and leave Program.cs as clear as possible.
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 **Architecture**: The program has three main functions divided into 4 classes making use of OOP:
 
@@ -30,6 +34,8 @@ Overlap logic:
 -OverlapCounter.cs
 
 -OverlapHandler.cs
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 **How it works:**
 
@@ -49,8 +55,12 @@ Overlap logic:
 
 The names of each employees are sent to OutputHandler along with the total number of overlap matches, and then it is printed.
 
+--------------------------------------------------------------------------------------------------------------------------------
+
 **HOw to use:**
 
 -Clone the repository and execute SchedulesAPP.sln with Visual Studio, once there run the console. -There is sample input.txt in SchedulesApp/bin/Debug/net6.0/
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 *Julian Abdala*
