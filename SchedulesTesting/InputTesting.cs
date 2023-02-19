@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using SchedulesApp.Classes.OverlapLogic;
 using SchedulesApp.Classes.ParsingLogic;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace SchedulesTesting
 {
 
     [TestFixture]
-    public class InputTesting :
+    public class InputTesting 
     {
         [Test]
         public void TestReadInput()
@@ -30,15 +31,45 @@ namespace SchedulesTesting
             string day = "MO";
 
             var expectedOutput = DayOfWeek.Monday;
+            var notExpectedOutput = DayOfWeek.Tuesday;
 
             //Act
             var result = InputParser.ParseDayOfWeek(day);
 
             //Assert
             Assert.AreEqual(expectedOutput, result);
+            Assert.AreNotEqual(notExpectedOutput, result);
         }
     }
 
+
+
+    [TestFixture]
+    public class OverlapHandlerTests
+    {
+        private OverlapHandler overlapHandler1;
+        private OverlapHandler overlapHandler2;
+
+        [SetUp]
+        public void Setup()
+        {
+            overlapHandler1 = new OverlapHandler(DayOfWeek.Monday, DateTime.Parse("09:00"), DateTime.Parse("12:00"));
+            overlapHandler2 = new OverlapHandler(DayOfWeek.Monday, DateTime.Parse("10:00"), DateTime.Parse("13:00"));
+        }
+
+        [Test]
+        public void TestCheckOverlap_Exists()
+        {
+            // Act
+            var overlap = overlapHandler1.CheckOverlap(overlapHandler2);
+
+            // Assert
+            Assert.That(overlap, Is.EqualTo(TimeSpan.FromHours(2)));
+        }
+
+    
+    }
+
+
+
 }
-
-

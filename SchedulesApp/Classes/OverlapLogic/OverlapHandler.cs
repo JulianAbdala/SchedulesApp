@@ -39,4 +39,6 @@ namespace SchedulesApp.Classes.OverlapLogic
         }
 
     }
+
 }
+
