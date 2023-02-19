@@ -3,7 +3,7 @@ Takes a .txt input and analizes if an schedule between two employees has overlap
 
 The biggest challenge was analyzing the schedules where the employees did not exactly match in date and time of entry and exit.
 
-*My main solution tool was the manipulation of dictionaries.* 
+**My solution idea was the manipulation of dictionaries.**
 
 I started by creating a monolithic program where all the classes, functions, and methods were in the same Program.cs. My priority was to make it work as soon as possible, so I could later improve and make it more complex.
 
@@ -15,7 +15,7 @@ I decided to divide the overlap function into two separate classes, one that ite
 
 Finally, I decided to create another class that handles the startup functions and leave Program.cs as clear as possible.
 
-Architecture: The program has three main functions divided into 4 classes making use of OOP:
+**Architecture**: The program has three main functions divided into 4 classes making use of OOP:
 
 Input/output manipulation:
 
@@ -31,7 +31,7 @@ Overlap logic:
 
 -OverlapHandler.cs
 
-How it works:
+**How it works:**
 
 -In Program.cs, the path to the .txt file is specified, and OutputHandler.cs is called to initiate the program's operation.
 
@@ -49,8 +49,8 @@ How it works:
 
 The names of each employees are sent to OutputHandler along with the total number of overlap matches, and then it is printed.
 
-HOw to use:
+**HOw to use:**
 
 -Clone the repository and execute SchedulesAPP.sln with Visual Studio, once there run the console. -There is sample input.txt in SchedulesApp/bin/Debug/net6.0/
 
-Julian Abdala
+*Julian Abdala*
