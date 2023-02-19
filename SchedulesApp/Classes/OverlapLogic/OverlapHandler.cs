@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace SchedulesApp.Classes.OverlapLogic
 {
 
-    public class OverlapHandler
+    public class OverlapHandler : IOverlapHandler
     {
         public DayOfWeek Day { get; private set; }
         public DateTime StartTime { get; private set; }

@@ -10,7 +10,7 @@ namespace SchedulesTesting
 {
 
     [TestFixture]
-    public class InputTesting
+    public class InputTesting :
     {
         [Test]
         public void TestReadInput()

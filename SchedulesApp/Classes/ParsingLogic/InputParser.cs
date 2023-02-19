@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace SchedulesApp.Classes.ParsingLogic
 {
-    public class InputParser 
+    public class InputParser : IInputParser
     {
 
         public Dictionary<string, List<OverlapHandler>> ReadInput(string inputFile)

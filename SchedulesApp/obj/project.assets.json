@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesApp\\SchedulesApp.csproj",
+      "projectUniqueName": "C:\\SourceCode\\SchedulesApp\\SchedulesApp\\SchedulesApp.csproj",
       "projectName": "SchedulesApp",
-      "projectPath": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesApp\\SchedulesApp.csproj",
+      "projectPath": "C:\\SourceCode\\SchedulesApp\\SchedulesApp\\SchedulesApp.csproj",
       "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-      "outputPath": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesApp\\obj\\",
+      "outputPath": "C:\\SourceCode\\SchedulesApp\\SchedulesApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",

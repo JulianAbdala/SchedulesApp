@@ -9,7 +9,7 @@ using SchedulesApp.Interfaces;
 
 namespace SchedulesApp.Classes
 {
-    public class OutputHandler
+    public class OutputHandler : IOutputHandler
     {
         public void Init(string inputFile)
         {

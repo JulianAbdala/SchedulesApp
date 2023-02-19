@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesTesting\\SchedulesTesting.csproj": {}
+    "C:\\SourceCode\\SchedulesApp\\SchedulesTesting\\SchedulesTesting.csproj": {}
   },
   "projects": {
-    "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesApp\\SchedulesApp.csproj": {
+    "C:\\SourceCode\\SchedulesApp\\SchedulesApp\\SchedulesApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesApp\\SchedulesApp.csproj",
+        "projectUniqueName": "C:\\SourceCode\\SchedulesApp\\SchedulesApp\\SchedulesApp.csproj",
         "projectName": "SchedulesApp",
-        "projectPath": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesApp\\SchedulesApp.csproj",
+        "projectPath": "C:\\SourceCode\\SchedulesApp\\SchedulesApp\\SchedulesApp.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesApp\\obj\\",
+        "outputPath": "C:\\SourceCode\\SchedulesApp\\SchedulesApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesTesting\\SchedulesTesting.csproj": {
+    "C:\\SourceCode\\SchedulesApp\\SchedulesTesting\\SchedulesTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesTesting\\SchedulesTesting.csproj",
+        "projectUniqueName": "C:\\SourceCode\\SchedulesApp\\SchedulesTesting\\SchedulesTesting.csproj",
         "projectName": "SchedulesTesting",
-        "projectPath": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesTesting\\SchedulesTesting.csproj",
+        "projectPath": "C:\\SourceCode\\SchedulesApp\\SchedulesTesting\\SchedulesTesting.csproj",
         "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesTesting\\obj\\",
+        "outputPath": "C:\\SourceCode\\SchedulesApp\\SchedulesTesting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesApp\\SchedulesApp.csproj": {
-                "projectPath": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesApp\\SchedulesApp.csproj"
+              "C:\\SourceCode\\SchedulesApp\\SchedulesApp\\SchedulesApp.csproj": {
+                "projectPath": "C:\\SourceCode\\SchedulesApp\\SchedulesApp\\SchedulesApp.csproj"
               }
             }
           }

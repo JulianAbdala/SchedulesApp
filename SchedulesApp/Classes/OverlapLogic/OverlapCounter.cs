@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SchedulesApp.Classes.OverlapLogic
 {
-    public class OverlapCounter
+    public class OverlapCounter : IOverlapCounter
     {
         public int CountOverlaps(List<OverlapHandler> schedule1, List<OverlapHandler> schedule2)
         {

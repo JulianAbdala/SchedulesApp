@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QYDn/P8VootZrfAYPAxtR9RFfsc45p2mL441PI6+GmojB3yuI6pdhdxLb+2iJt78IaC8QsGgAbqMbJAf+mBD9A==",
+  "dgSpecHash": "9Q8zRO1kWvqC4xNzFjqU9fYnDs9WSOnKBp2DyrReqphuFk1jcKx1QGo/+WSqMsSC8mtexKt+KPKtXW3TZkMT4w==",
   "success": true,
-  "projectFilePath": "C:\\SourceCode\\.NET\\schedules-overlap\\SchedulesTesting\\SchedulesTesting.csproj",
+  "projectFilePath": "C:\\SourceCode\\SchedulesApp\\SchedulesTesting\\SchedulesTesting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.codecoverage\\17.4.1\\microsoft.codecoverage.17.4.1.nupkg.sha512",
     "C:\\Users\\julia\\.nuget\\packages\\microsoft.net.test.sdk\\17.4.1\\microsoft.net.test.sdk.17.4.1.nupkg.sha512",
