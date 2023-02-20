@@ -23,7 +23,7 @@ Finally, I decided to create another class that handles the startup functions an
 
 ## Architecture 
 
-The program has three main functions divided into 4 classes making use of OOP:
+The program has three main functions divided into 4 classes and their respective interfaces, making use of OOP principles:
 
 Input/output manipulation:
 
