@@ -27,17 +27,17 @@ The program has three main functions divided into 4 classes making use of OOP:
 
 Input/output manipulation:
 
--OutputHandler.cs
+- OutputHandler.cs
 
 File transformation and data division:
 
--InputParser.cs
+- InputParser.cs
 
 Overlap logic:
 
--OverlapCounter.cs
+- OverlapCounter.cs
 
--OverlapHandler.cs
+- OverlapHandler.cs
 
 --------------------------------------------------------------------------------------------------------------------------------
 
