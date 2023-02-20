@@ -13,7 +13,7 @@ At first, I started by creating a monolithic program where all the classes, func
 
 By reading a lot of documentation on file loading and manipulating dates and times, I was able to create the logic for `inputParser` . One of my main problems was separating the day from the entry time, so I had to add an underscore "_".
 
-Then, I began to think about the logic for "checkOverlap" and the comparison of the current instance of the object with the previous one.
+Then, I began to think about the logic for `checkOverlap` and the comparison of the current instance of the object with the previous one.
 
 I decided to divide the overlap function into two separate classes, one that iterates over the names and schedules of each employee, and another that maintains the logic to validate the number of overlaps.
 
