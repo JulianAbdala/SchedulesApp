@@ -47,9 +47,9 @@ Overlap logic:
 
 -`OutputHandler.cs` initializes a dictionary using the overlap logic in `OverlapHandler.cs` and takes values from InputParser.cs.
 
--InputParser divides the text line by line using "StreamReader" and several other specific functions for manipulating this type of data such as DateTime, DayOfWeek, Split and Parse into a dictionary called 'employeeSchedules'
+-InputParser divides the text line by line using `StreamReader` and several other specific functions for manipulating this type of data such as `DateTime`, `DayOfWeek`, `Split` and `Parse` into a dictionary called `employeeSchedules`.
 
--In the same parsing function, every date is formated into a list of objects using OverlapHandler
+-In the same parsing function, every date is formated into a list of objects using `OverlapHandler`.
 
 -In `OverlapHandler`, the day, entry time, and exit time are separated, and then `CheckOverlap` is used to validate if there is an overlap. If the result is greater than 0, there is an overlap.
 
