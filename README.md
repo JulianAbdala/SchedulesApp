@@ -7,7 +7,7 @@ The biggest challenge was analyzing the schedules where the employees did not ex
 
 **My solution idea was the manipulation of dictionaries.**
 
-I started by creating a monolithic program where all the classes, functions, and methods were in the same Program.cs. My priority was to make it work as soon as possible, so I could later improve and make it more complex.
+At first, I started by creating a monolithic program where all the classes, functions, and methods were in the same Program.cs. My priority was to make it work as soon as possible, so I could later improve and make it more complex.
 
 By reading a lot of documentation on file loading and manipulating dates and times, I was able to create the logic for "inputParser". One of my main problems was separating the day from the entry time, so I had to add an underscore "_".
 
