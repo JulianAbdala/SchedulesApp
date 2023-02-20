@@ -55,7 +55,7 @@ Overlap logic:
 
 -Once the dictionary with the employees' schedules is created, `OutputHandler` initiates the process of counting and listing overlaps with every employee. For this, a specific class called `OverlapCounter.cs` was created.
 
--`OverlapCounter.cs` has a main method called `CreateOutputText` which takes employeeSchedules and compares between every employee, first compares they are not the same and then calls a second function called 'CountOverlaps' that takes the list of schedules of both employees and uses the already explained method `CheckOverlap` to validate and then count if there is an overlap.
+-`OverlapCounter.cs` has a main method called `CreateOutputText` which takes employeeSchedules and compares between every employee, first compares they are not the same and then calls a second function called `CountOverlaps` that takes the list of schedules of both employees and uses the already explained method `CheckOverlap` to validate and then count if there is an overlap.
 
 The names of each employees are sent to `OutputHandler` along with the total number of overlap matches, and then it is printed.
 
