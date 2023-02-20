@@ -1,4 +1,4 @@
-# SchedulesApp
+# SchedulesApp for IOET
 Takes a .txt input and analizes if an schedule between two employees has overlaped and how many times it did it.
 
 --------------------------------------------------------------------------------------------------------------------------------
