@@ -49,12 +49,16 @@ namespace SchedulesTesting
     {
         private OverlapHandler overlapHandler1;
         private OverlapHandler overlapHandler2;
+        private OverlapHandler overlapHandler3;
+        private OverlapHandler overlapHandler4;
 
         [SetUp]
         public void Setup()
         {
             overlapHandler1 = new OverlapHandler(DayOfWeek.Monday, DateTime.Parse("09:00"), DateTime.Parse("12:00"));
             overlapHandler2 = new OverlapHandler(DayOfWeek.Monday, DateTime.Parse("10:00"), DateTime.Parse("13:00"));
+            overlapHandler3 = new OverlapHandler(DayOfWeek.Wednesday, DateTime.Parse("09:00"), DateTime.Parse("12:00"));
+            overlapHandler4 = new OverlapHandler(DayOfWeek.Wednesday, DateTime.Parse("13:00"), DateTime.Parse("15:00"));
         }
 
         [Test]
@@ -66,8 +70,18 @@ namespace SchedulesTesting
             // Assert
             Assert.That(overlap, Is.EqualTo(TimeSpan.FromHours(2)));
         }
+        [Test]
+        public void TestCheckOverlap_NotExists()
+        {
+            // Act
+            var noOverlap = overlapHandler3.CheckOverlap(overlapHandler4);
 
-    
+            // Assert
+            Assert.That(noOverlap, Is.EqualTo(TimeSpan.FromHours(0)));
+        }
+
+
+
     }
 
 

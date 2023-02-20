@@ -23,6 +23,7 @@ namespace SchedulesApp.Classes
             OverlapCounter overlapCounter = new OverlapCounter();
             Dictionary<string, int> coincidencesList = overlapCounter.CreateOutputText(employeeSchedules);
 
+            Console.WriteLine("List of employees with their respective overlaps among them: ");
             //creates output with the given coincidences
             foreach (KeyValuePair<string, int> coincidence in coincidencesList)
             {
