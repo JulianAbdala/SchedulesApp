@@ -3,7 +3,7 @@ Takes a .txt input and analizes if an schedule between two employees has overlap
 
 --------------------------------------------------------------------------------------------------------------------------------
 
-##Approach
+## Approach
 
 The biggest challenge was analyzing the schedules where the employees did not exactly match in date and time of entry and exit.
 
@@ -21,7 +21,7 @@ Finally, I decided to create another class that handles the startup functions an
 
 --------------------------------------------------------------------------------------------------------------------------------
 
-##Architecture 
+## Architecture 
 
 The program has three main functions divided into 4 classes making use of OOP:
 
@@ -41,7 +41,7 @@ Overlap logic:
 
 --------------------------------------------------------------------------------------------------------------------------------
 
-##How it works:
+## How it works:
 
 -In `Program.cs`, the path to the `.txt` file is specified, and `OutputHandler.cs` is called to initiate the program's operation.
 
