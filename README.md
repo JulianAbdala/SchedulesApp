@@ -1,3 +1,7 @@
+##SchedulesApp
+
+--------------------------------------------------------------------------------------------------------------------------------
+
 ## Architecture 
 
 The program has three main functions divided into 4 classes and their respective interfaces, making use of OOP principles:
