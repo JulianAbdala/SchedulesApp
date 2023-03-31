@@ -1,26 +1,3 @@
-# SchedulesApp for IOET
-Takes a .txt input and analizes if an schedule between two employees has overlaped and how many times it did it.
-
---------------------------------------------------------------------------------------------------------------------------------
-
-## Approach
-
-The biggest challenge was analyzing the schedules where the employees did not exactly match in date and time of entry and exit.
-
-**My solution idea was the manipulation of dictionaries.**
-
-At first, I started by creating a monolithic program where all the classes, functions, and methods were in the same Program.cs. My priority was to make it work as soon as possible, so I could later improve and make it more complex.
-
-By reading a lot of documentation on file loading and manipulating dates and times, I was able to create the logic for `inputParser` . One of my main problems was separating the day from the entry time, so I had to add an underscore "_".
-
-Then, I began to think about the logic for `checkOverlap` and the comparison of the current instance of the object with the previous one.
-
-I decided to divide the overlap function into two separate classes, one that iterates over the names and schedules of each employee, and another that maintains the logic to validate the number of overlaps.
-
-Finally, I decided to create another class that handles the startup functions and leave Program.cs as clear as possible.
-
---------------------------------------------------------------------------------------------------------------------------------
-
 ## Architecture 
 
 The program has three main functions divided into 4 classes and their respective interfaces, making use of OOP principles:
