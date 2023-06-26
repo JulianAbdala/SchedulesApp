@@ -1,5 +1,7 @@
 ## SchedulesApp
 
+Takes a .txt file with a list of employees with days and entry/exit times. Analyzes them and returns the number of times each employee encountered another in the same day and time frame.
+
 --------------------------------------------------------------------------------------------------------------------------------
 
 ## Architecture 
